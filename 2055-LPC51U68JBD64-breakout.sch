@@ -439,7 +439,7 @@ $EndComp
 Text Notes 1950 7400 0    50   ~ 0
 Bypass Capacitors
 Text Notes 6975 7125 0    39   Italic 0
-Copyright (C) 2018 John Winans\n\nThis documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.\n\nYou may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, \nSATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.  Please see the CERN OHL v.1.2 for applicable conditions\n\nIf you chose to manufacture products based on this design, please notify me (see license section 4.2) via john@winans.org\n
+Copyright (C) 2018, 2019 John Winans\n\nThis documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.\n\nYou may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, \nSATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.  Please see the CERN OHL v.1.2 for applicable conditions\n\nIf you chose to manufacture products based on this design, please notify me (see license section 4.2) via john@winans.org\n
 Text Notes 600  1250 0    50   ~ 0
 The USART ISP interface is implemented on the following pins:\n• PIO0_0 for receive\n• PIO0_1 for transmit\n\nThe USB interface is implemented on the following pins:\n• PIO1_6 for VBUS\n• USB0_DP for USB D+\n• USB0_DM for USB D
 $Comp
