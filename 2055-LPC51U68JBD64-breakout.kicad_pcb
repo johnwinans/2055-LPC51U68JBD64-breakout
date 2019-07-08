@@ -1942,7 +1942,7 @@
   (gr_text 0.0 (at 151.892 109.9058) (layer F.SilkS) (tstamp 5D1FD04A)
     (effects (font (size 0.7 0.6) (thickness 0.125)))
   )
-  (gr_text "2055-LPC51U68JBD64-breakout Rev 1\nCopyright © 2019 John Winans" (at 122.809 105.537) (layer F.SilkS) (tstamp 5D1FD047)
+  (gr_text "2055-LPC51U68JBD64-breakout Rev 2\nCopyright © 2019 John Winans" (at 122.809 105.537) (layer F.SilkS) (tstamp 5D1FD047)
     (effects (font (size 0.8 0.7) (thickness 0.175)) (justify left))
   )
   (dimension 20.32 (width 0.3) (layer Eco1.User) (tstamp 5D1FF8D7)
