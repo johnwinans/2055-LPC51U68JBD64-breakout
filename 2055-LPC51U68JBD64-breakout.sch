@@ -1353,4 +1353,6 @@ Text Notes 9700 5800 0    50   ~ 0
 ISP 1
 Text Notes 9700 6000 0    50   ~ 0
 VBUS
+Text Notes 8600 6500 0    50   ~ 10
+https://github.com/johnwinans/2055-LPC51U68JBD64-breakout
 $EndSCHEMATC
