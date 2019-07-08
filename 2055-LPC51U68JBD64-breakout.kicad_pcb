@@ -1909,7 +1909,7 @@
   (gr_text VBUS (at 113.792 109.855) (layer F.SilkS) (tstamp 5D1FD06B)
     (effects (font (size 0.7 0.6) (thickness 0.125)))
   )
-  (gr_text "2055-LPC51U68JBD64-breakout Rev 1\nCopyright © 2019 John Winans\n" (at 186.944 94.488) (layer B.SilkS) (tstamp 5D1FD068)
+  (gr_text "2055-LPC51U68JBD64-breakout Rev 2\nCopyright © 2019 John Winans\n" (at 186.944 94.488) (layer B.SilkS) (tstamp 5D1FD068)
     (effects (font (size 1.2 0.8) (thickness 0.2)) (justify left mirror))
   )
   (gr_text ISP0 (at 183.896 107.569) (layer F.SilkS) (tstamp 5D1FD065)
