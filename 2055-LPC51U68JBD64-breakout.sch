@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "LPC51U68JBD64QL Breakout"
 Date "2019-07-05"
-Rev "2"
+Rev "3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -500,12 +500,12 @@ PIO1_6
 $Comp
 L power:GND #PWR06
 U 1 1 5BC58961
-P 2150 3800
-F 0 "#PWR06" H 2150 3550 50  0001 C CNN
-F 1 "GND" H 2155 3627 50  0000 C CNN
-F 2 "" H 2150 3800 50  0001 C CNN
-F 3 "" H 2150 3800 50  0001 C CNN
-	1    2150 3800
+P 2600 3800
+F 0 "#PWR06" H 2600 3550 50  0001 C CNN
+F 1 "GND" H 2605 3627 50  0000 C CNN
+F 2 "" H 2600 3800 50  0001 C CNN
+F 3 "" H 2600 3800 50  0001 C CNN
+	1    2600 3800
 	1    0    0    -1  
 $EndComp
 Text Label 3100 2950 0    50   ~ 0
@@ -953,10 +953,9 @@ F 3 "~" H 2750 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 3800 2750 3800
+	2500 3800 2600 3800
 Wire Wire Line
 	2750 3800 2750 3750
-Connection ~ 2500 3800
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5D18B756
@@ -1276,7 +1275,7 @@ F 10 "CONN RCPT USB2.0 MINI B 5P R/A" H 2400 4150 60  0001 L CNN "Description"
 F 11 "Molex" H 2400 4250 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 2400 4350 60  0001 L CNN "Status"
 	1    2200 3150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4950 6400 5000 6400
@@ -1291,13 +1290,6 @@ Wire Wire Line
 	10400 6000 10050 6000
 Wire Wire Line
 	2500 2950 2950 2950
-Wire Wire Line
-	2000 3650 2000 3800
-Wire Wire Line
-	2000 3800 2150 3800
-Connection ~ 2150 3800
-Wire Wire Line
-	2150 3800 2500 3800
 Wire Wire Line
 	7450 4000 7500 4000
 Wire Wire Line
@@ -1355,4 +1347,20 @@ Text Notes 9700 6000 0    50   ~ 0
 VBUS
 Text Notes 8600 6500 0    50   ~ 10
 https://github.com/johnwinans/2055-LPC51U68JBD64-breakout
+Connection ~ 2600 3800
+Wire Wire Line
+	2600 3800 2750 3800
+Wire Wire Line
+	2000 2650 1700 2650
+$Comp
+L power:GND #PWR0103
+U 1 1 5D2B8116
+P 1700 2650
+F 0 "#PWR0103" H 1700 2400 50  0001 C CNN
+F 1 "GND" H 1705 2477 50  0000 C CNN
+F 2 "" H 1700 2650 50  0001 C CNN
+F 3 "" H 1700 2650 50  0001 C CNN
+	1    1700 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
