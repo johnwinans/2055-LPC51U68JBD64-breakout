@@ -26,3 +26,5 @@ _autosave-*
 *.csv
 
 fp-info-cache
+
+*.zip
